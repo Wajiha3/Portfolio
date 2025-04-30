@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="pg6.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Wajiha</h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./page2.html">About Me</a></li>
+                <li><a href="./page3.html">Education</a></li>
+                <li><a href="./page4.html">Experience</a></li>
+                <li><a href="./pg5.html">Skills</a></li>
+                <li><a href="./pg6.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<!-- PART 2 -->
+
+    <main>
+        <div class="contact-me">
+            <h1 class="all-contact">Contact <span class="color-word">Me</span></h1>
+        </div>
+
+        <div class="container">
+            <div class="connect-me">
+                <h3>Let's <span class="first-green"> Connect </span> & <span class="second-green">Collaborate</span></h3>
+            </div>
+
+            <div class="contact-form"> <!--extra one see later-->
+                <form>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstname"></label>
+                            <input type="text" id="firstname" name="firstname" placeholder="First Name">
+                        </div>          
+                        <div class="form-group">
+                            <label for="lastname"></label>
+                            <input type="text" id="lastname" name="lastname" placeholder="Last name">
+                        </div>   
+                    </div>
+                        <!--Email & phone in one row-->
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email"></label>
+                                <input type="email" id="email" name="email" placeholder="Email">
+                            </div>           
+                    
+                            <div class="form-group">
+                                <label for="phonenumber"></label>
+                                <input type="tel" id="phonenumber" name="phonenumber" placeholder="Phone Number">
+                            </div>   
+                        </div>
+
+                        <!--message-->
+                        <div class="form-group">
+                            <label for="message"></label>
+                            <textarea id="message" name="message" placeholder="Message"></textarea>   
+                        </div>
+
+                        <div class="sub-button">
+                            <button class="btn-submit">Send Message</button>
+                        </div>
+        
+                </form>
+            </div>
+        </div>
+</body>
+</html>

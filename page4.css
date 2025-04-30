@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: PT Serif, serif;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem; /*1rem = 16px*/
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 3.25rem;
+}
+
+h1,nav {
+    border: 0px solid;
+    
+}
+
+nav {
+    background-color: white;
+    font-size: 3.25rem;
+    padding-right: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #3629c4;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 3.5rem;
+}
+
+/* .....PART 2.....*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    margin-top: 5rem;
+}
+
+.my-experience {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color:  #ada9d6;
+    margin: 0;
+    margin-top: 1.7rem;
+    padding-left: 300px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.all-experience {
+     font-size: 9.5rem;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding-left: 500px;
+    padding-right: 500px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color:white;
+}
+
+.first-experience {
+    font-size: 70px;
+}
+
+.custom-bullets1 {
+    flex-direction: column;
+    list-style-type: disc;
+    padding-left: 120px;
+    font-weight: normal;
+}
+
+.second-experience {
+    font-size: 70px;
+    padding-top: 50px;
+}
+
+.custom-bullets2 {
+    flex-direction: column;
+    list-style-type: disc;
+    padding-left: 120px;
+    font-weight: normal;
+}
+
+.third-experience {
+    font-size: 70px;
+    padding-top: 50px;
+}
+
+.custom-bullets3 {
+    flex-direction: column;
+    list-style-type: disc;
+    padding-left: 120px;
+    font-weight: normal;
+}
+
+/*@media (max-width: 768px) {
+
+ 
+    .nav-links a {
+      font-size: 0.85rem; 
+      gap: 0.3rem;
+    }
+  
+    .nav-links {
+      gap: 1rem;
+    }
+   
+    .hero-section {
+      flex-direction: column;
+      padding: 2rem 1rem;
+    }
+    main {
+      align-items: center;
+    }
+  }*/
